@@ -1,6 +1,6 @@
 from datetime import datetime
 
-idea = "\nA young computer genius named Mark Zuckerberg has the idea to create a famous website."
+idea = "\n A young computer genius named Mark Zuckerberg has the idea to create a famous website."
 come_up_name = "\nWould you like to help Mark come up with a name for his project?"
 not_able = "\nUnable to come up with a worthy name for his project, Mark decided to create a really cool animal shelter project and called it MuzzleBook."
 help_name_company = "\nWhich name do you like better?"
