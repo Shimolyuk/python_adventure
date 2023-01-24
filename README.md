@@ -1,1 +1,1 @@
-# Help Mark Zuckerberg to come up with a idea of his media project
+# Help Mark Zuckerberg to come up with a idea for his new media project
