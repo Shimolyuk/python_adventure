@@ -47,26 +47,30 @@ def choose_project_name():
             print(meta_project) #"Mark decided to call his project Meta-worse."
             print(is_name_successful) #"Will he have success?"
             if yes_no():
+                log()
                 print(meta_worse_decided) # 'Meta-worse was good idea. But Mark changed it for "Quitter"!'
             else:
                 print(not_able)#"Unable to come up with a worthy name for his project, Mark decided to create a really cool animal shelter project and called it MuzzleBook."
-                log()
+                
 
         elif (decision == 'Failsbook') or (decision == 'failsbook'):
             track_answer = True
             print(failsbook)#"Mark goes for Failsbook!"
             print(what_later)#Do you want to know what happened after?  
             if yes_no():  
+                log()
                 print(failsbook_result) #"Many users didn't join this, but thanked Mark for being honest with himself and the name."
                 print(continue_naming)#"Want to see what happened to the next network name?"
             if yes_no():
+                log()
                 print(meta_project) #"Mark decided to call his project Meta-worse."
                 print(is_name_successful) #"Will he have success?"
             if yes_no():
+                log()
                 print(meta_worse_decided) # 'Meta-worse was good idea. But Mark changed it for "Quitter"!'        
             else:
                 print(not_able)#"Unable to come up with a worthy name for his project, Mark decided to create a really cool animal shelter project and called it MuzzleBook."
-                log()
+                
                 
         elif (decision == 'Instadam') or (decision == 'instadam'):
             track_answer = True
@@ -74,13 +78,14 @@ def choose_project_name():
             print(insta_dam_details)#"Since it is only used by people to show off - the name is not liked by many."
             print(quit_insta_dam)#"Does Mark have to close Instadam?"
             if yes_no():
+                log()
                 print(yes_quit_insta_dam)#"Mark closes Instadam."
                 print(more_ideas)#"Should he try get more ideas?"
                 if yes_no():
+                    log()
                     track_answer = False
                 else:
                     print(not_able)#"Unable to come up with a worthy name for his project, Mark decided to create a really cool animal shelter project and called it MuzzleBook."
-                    log()
             else:
                 print(dont_quit_Instadam)#"Mark stays there forever, but the investors all run to a really cool project called _Nology."
         else:
@@ -90,7 +95,7 @@ def choose_project_name():
 def mark_business():
     print(idea)#"A young computer genius named Mark Zuckerberg has the idea to create a famous website."
     print(come_up_name)#"Would you like to help Mark come up with a name for his project?"
-    if not yes_no(): #as fas as the function returns false go to not_able
+    if not yes_no(): #as far as the function returns false go to not_able
         print(not_able)#"Unable to come up with a worthy name for his project, Mark decided to create a really cool animal shelter project and called it MuzzleBook."
         log()
     else: #otherwise proceed with function choose_project_name
